@@ -1,0 +1,140 @@
+/* Reset and Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Utility Classes */
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+    /* General Container */
+    .login-container {
+      display: flex;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Left Section */
+    .login-left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f9f4;
+    }
+    
+    .content {
+      text-align: center;
+    }
+    
+    .farmer-image {
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Right Section */
+    .login-right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+    }
+    
+    .login-box {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .login-box h2 {
+      font-size: 1.5rem;
+      color: #1a6723;
+      margin-bottom: 5px;
+    }
+    
+    .login-box h3 {
+      font-size: 1.25rem;
+      color: #2b7a3d;
+      margin-bottom: 15px;
+    }
+    
+    .login-box p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    
+    /* Form */
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    
+    label {
+      display: block;
+      font-size: 0.9rem;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    
+    .input-wrapper {
+      position: relative;
+    }
+    
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    
+    .toggle-password {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      color: #999;
+    }
+    
+    .login-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #E8B40A;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .login-button:hover {
+      background-color: #2b7a3d;
+    }
+  
